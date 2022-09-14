@@ -1,6 +1,8 @@
 server:
   port: 8100
 #服务器文件的入口
-filePath=http://www.域名/pics/
+filePath:
+  http://www.域名/pics/
 #服务器图片存放地址
-uploadHostFilePath=/var/ubuntu/images/
+uploadHostFilePath:
+  /var/home/images/
