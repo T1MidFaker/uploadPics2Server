@@ -32,7 +32,7 @@ public class UploadPicsController {
     /**
      * 服务器保存文件路径
      */
-    @Value(value = "${uploadHost}")
+    @Value(value = "${uploadHostFilePath}")
     private String uploadHost;
 
     @GetMapping("/")
